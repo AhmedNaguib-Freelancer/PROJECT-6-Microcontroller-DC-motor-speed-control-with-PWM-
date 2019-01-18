@@ -1,0 +1,8 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\only try\Desktop\PROJECT 6 Microcontroller ( DC motor speed control with PWM)\PROGRAM\DCPWM.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\only try\Desktop\PROJECT 6 Microcontroller ( DC motor speed control with PWM)\PROGRAM\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"C:\Users\only try\Desktop\PROJECT 6 Microcontroller ( DC motor speed control with PWM)\PROGRAM\" "DCPWM.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+error: 1	304	 error: Can't open include file "pwm.h"     #include <PWM.h> 1 error in preprocessor.	C:\Users\only try\Desktop\PROJECT 6 Microcontroller ( DC motor speed control with PWM)\PROGRAM\DCPWM.c
+diagnostics: 0	122	Compilation Started	DCPWM.c
+error: 7	324	Undeclared identifier 'PWM1_Init' in expression	DCPWM.c
+error: 9	324	Undeclared identifier 'PWM1_Start' in expression	DCPWM.c
+error: 13	324	Undeclared identifier 'PWM1_Set_Duty' in expression	DCPWM.c
+error: 0	102	Finished (with errors): 13 Jan 2019, 22:50:52	DCPWM.mcppi
